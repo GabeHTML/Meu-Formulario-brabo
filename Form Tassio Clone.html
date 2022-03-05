@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titulo">WWW.FORMULÁRIO.COM.BR</title>
+
+    <link rel="stylesheet" type="text/css" href="css/cssForm.css">
+
+</head>
+<body>
+        <h1 id="primary" style="color: rgb(0, 242, 250);">Formulário de Interface</h1>
+
+    <form>
+    
+    <fieldset id="quartenario" style="color: floralwhite;"> 
+
+    
+      <div class="mb-3">
+        <label for="exampleImputPassword1" class="form-label" style="color: rgb(11, 83, 218);"><strong>CPF*</strong></label>
+        <input type="number" required/>
+      </div>
+
+      <div class="mb-3">
+        <label class="secundary" for="exampleImputPassword1" class="form-label" style="color: rgb(11, 83, 218);"><strong>Saudação</strong></label>
+        <select id="disebledSelect" class="form-select">
+            <option>Senhor</option>
+            <option>Senhora</option>
+            <option>Senhorita</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleImputPassword1" class="form-label" style="color: rgb(11, 83, 218);"><strong>Nome*</strong></label>
+        <input type="text" name="nome" id="nome" required/>
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleImputPassword1" class="form-label" style="color: rgb(11, 83, 218);"><strong>Data Nascimento*</strong></label>
+        <input type="date" name="date" id="date" required/>
+      </div>
+
+      <label style="color: rgb(11, 83, 218);"><strong>Sexualidade?</strong></label>
+         <class="primary" input type="radio"  name="devweb" value="masculino" checked style="color: rgb(11, 83, 218);">Masculino
+      </label> 
+         
+      <label class="primary">
+        <input type="radio" name="devweb" value="feminino">Feminino
+      </label>
+
+      <label class="primary">
+        <input type="radio" name="devweb" value="nao citar">Não citar
+      </label>
+  
+      <div class="mb-3">
+        <label class="secundary" for="exampleImputPassword1" class="form-label" style="color: rgb(11, 83, 218);"><strong>Tipo Logradouro</strong></label>
+        <select id="disebledSelect" class="form-select">
+            <option>Avenida</option>
+            <option>Rua</option>
+            <option>Travessia</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleImputPassword1" class="form-label" style="color: rgb(11, 83, 218);"><strong>Número*</strong></label>
+        <input type="number" required/>
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleImputPassword1" class="form-label" style="color: rgb(11, 83, 218);"><strong>Bairro</strong></label>
+        <input type="text">
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleImputPassword1" class="form-label" style="color: rgb(11, 83, 218);"><strong>Cidade</strong></label>
+        <input type="Text">
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleImputPassword1" class="form-label" style="color: rgb(11, 83, 218);"><strong>CEP*</strong></label>
+        <input type="number" required/>
+      </div>
+
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1" style="color: rgb(11, 83, 218);">Concordo com os dados acima</label>
+      </div>
+    
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+    <button type="reset" class="btn btn-primary">Limpar</button>
+
+</fieldset>
+</fieldset>
+
+</body>
+</html>
